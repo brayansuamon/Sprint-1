@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap");
+
+#Invitadas h1 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 48px;
+  color: #060a24;
+  letter-spacing: 0;
+  
+  width: 481px;
+  height: 62px;
+  margin-left: 200px;
+  margin-bottom: 36px;
+}
+#Invitadas > #ImgInv {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#Invitadas #ImgInv img {
+  width: 480px;
+  height: 364px;
+  margin: 0px;
+}

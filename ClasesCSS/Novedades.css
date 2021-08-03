@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap");
+#Novedad{
+    margin-top: 34px;
+    height: 518px;
+    width: 1440px;
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    clip-path: polygon(0% 20%,100% 0%,100% 100%,0% 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+#Novedad h1{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 48px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+
+    /*position: relative;
+    top: 213px;*/
+
+}
+#Novedad button{ 
+   /*position: relative;*/
+    font-family: IBMPlexMono-Medium;
+    font-size: 18px;
+    color: #060A24;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 24px;
+
+    background: #00F3BB;
+    width: 345px;
+    height: 56px;
+
+}
+#Novedad button:hover{
+    background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+   
+}
+#Novedad button a{
+    text-decoration: none;
+}

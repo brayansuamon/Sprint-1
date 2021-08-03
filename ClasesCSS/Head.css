@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body > #MenuHead,
+#IntroHead {
+  padding: 0px 100px;
+  width: 100%;
+}
+
+#MenuHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  color: #ffffff;
+  opacity: 100%;
+}
+#MenuHead ul > li  {
+  display: inline;
+  margin-left: 48px;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 16px;
+  color: #060a24;
+  letter-spacing: 0;
+  line-height: 28px;
+  text-transform: uppercase; /*Me pone todo en mayusculas*/
+}
+
+#MenuHead ul :hover{
+  color: #00F3BB;
+  text-decoration: line-through;
+}
+#MenuHead ul :active{
+  color: #8F060A24;
+  text-decoration: line-through;
+}
+#MenuHead ul li a{
+  text-decoration: none;
+}
+
+/* ------------- Para Mobil -----------*/
+.MenuHeadML{
+  background-color: #0000EC;
+}
+.MenuHeadML > div {
+  display: flex;
+  height: 28px;
+  align-items: center;
+  padding-left: 16px;
+  opacity: 100%;
+}
+.MenuHeadML > div > a{
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+/*
+.MenuHeadML div a:hover{
+  color: #00F3BB;
+  text-decoration: line-through;
+}
+.MenuHeadML div a:active{
+  color: #8F060A24;
+  text-decoration: line-through;
+}
+*/
+
+#MenuHeadM > .Logo{
+  display: inline-block;
+  align-items: center;
+}
+#MenuHeadM label  span{
+  border-radius: 5px;
+  background: black;
+  display: block;
+  width: 20px;
+  height: 2px;
+  margin: 5px auto;
+  transition: all 0.6s ease;
+}
+
+#MenuHeadM label.Logo{
+  margin-top: 10px;
+  margin-left: 286px;
+}
+#MenuHeadM img{
+  margin-left: 16px;
+}
+
+.MenuHeadML{
+  transform: translateX(100%);
+  transition: all 1.5s ease;
+}
+
+#Hamburguesa{
+  display: none;
+}
+
+#MenuHeadM{
+  display: none;
+  overflow: hidden;
+}
+
+
+/* ----------------------------------------------*/
+
+.World {
+  text-decoration: line-through;
+}
+.Punto {
+  color: #0000ec;
+}
+#IntroHead {
+  margin: 120px 0px 0px 100px;
+}
+
+#IntroHead h1 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 64px;
+  color: #060a24;
+  letter-spacing: 0;
+  height: 84px;
+  align-items: center;
+}
+#IntroHead p {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 16px;
+  color: #060a24;
+  letter-spacing: 0;
+  line-height: 24px;
+  width: 628px;
+  margin-bottom: 56px;
+}
+#IntroHead button {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 18px;
+  color: #060a24;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 24px;
+
+  width: 226px;
+  height: 56px;
+  background-color: #00f3bb;
+
+  text-transform: uppercase; /*Pone el texto en mayuscula*/
+  font-weight: 700; /*Pone el texto en negrilla*/
+}
+#IntroHead button:hover{
+  background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+}
+
+@media screen and (max-width: 420px) {
+
+  #MenuHeadM{
+    display: block;
+    }
+  #MenuHead{
+      display: none;
+    }
+  
+  #Hamburguesa:checked + .MenuHeadML {
+      transform: translatex(0%);
+  }
+  /*
+  #MenuHeadM input:checked + span:nth-child(1){
+    transform: translateY(7px) rotate(45deg);
+  } 
+  #MenuHeadM input:checked + span:nth-child(2){
+   opacity: 0%;
+  } 
+  #MenuHeadM input:checked + span:nth-child(3){
+    transform: translateY(-7px) rotate(-45deg);
+  } 
+*/
+  /* ------------------------------------ */
+  #IntroHead {
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+  }
+  #IntroHead h1 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+  #IntroHead p {
+
+    font-size: 14px;
+    line-height: 22px;
+    width: 368px;
+    margin-bottom: 36px;
+  }
+  #IntroHead button {
+    font-size: 16px;
+    line-height: 22px;
+  
+    width: 368px;
+    height: 48px;
+  
+  }
+
+  }
+  

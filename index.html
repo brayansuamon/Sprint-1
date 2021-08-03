@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Static Template</title>
+    <link rel="stylesheet" href="./ClasesCSS/Head.css">
+    <link rel="stylesheet" href="./ClasesCSS/Episodios.css">
+    <link rel="stylesheet" href="./ClasesCSS/Celular.css">    
+    <link rel="stylesheet" href="./ClasesCSS/Invitadas.css">  
+    <link rel="stylesheet" href="./ClasesCSS/Novedades.css">  
+    <link rel="stylesheet" href="./ClasesCSS/OtrosTemas.css">
+    <link rel="stylesheet" href="./ClasesCSS/Footer.css">     
+    <!-- No va  <link rel="stylesheet" href="./Imagenes/"> --> 
+  </head>
+  <body>
+
+    <!--------------     Head Pc      -------------> 
+   
+    <nav id="MenuHead">
+        
+    <img src="./Imagenes/logo.svg" alt="">
+   
+    <ul>
+      <li><a href="#Episodios">Episodios</a></li>
+      <li><a href="#Celular">Nosotros</a></li>
+      <li><a href="#Invitadas">Entrevistas</a></li>
+      <li><a href="#Temas">Tópicos</a></li>
+    </ul>
+    </nav>
+   
+    <!--------------     Head Mobile      ------------->
+    <nav id="MenuHeadM">
+    
+   <!-- <div class="Logo">-->
+
+        <img class="Logo" src="./Imagenes/logo.svg" alt=""/>
+      
+      
+        <label class="Logo" for="Hamburguesa">
+     <!---     <img src="./Imagenes/icono-hamburguesa.svg" alt="Burger"/>
+-->
+        <span></span>
+        <span></span>
+        <span></span>
+
+        </label>
+        <input type="checkbox"  id="Hamburguesa"/>
+  <!--  </div> -->
+
+      <div class="MenuHeadML">
+        <div><a href="#Episodios">Episodios</a></div>
+        <div><a href="#Celular">Nosotros</a></div>
+        <div><a href="#Invitadas">Entrevistas</a></div>
+        <div><a href="#Temas">Tópicos</a></div>
+      </div>
+
+    </nav>
+
+  <div id="IntroHead">
+   <h1>Hello <span class="World">world</span> pale blue dot<span class="Punto">.</span></h1>
+   <p>El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos episodios, todos los jueves cada 15 días.</p>
+   <button>Conocé Más</button>
+  </div>
+
+<!-- 
+      Episodios   
+    <div id="Episodios">
+     
+      <h1 id="TituloEpi">Episodios</h1>
+      
+     <div class="Imagenes">
+    <iframe class= "Img Img1" src="https://open.spotify.com/embed/track/2lFOoIIZw0zZJYx8o7BKg7"  frameBorder="0" ></iframe>
+    <iframe class= "Img Img2" src="https://open.spotify.com/embed/track/4u7EnebtmKWzUH433cf5Qv"  frameBorder="0"></iframe>
+    <iframe class= "Img Img3" src="https://open.spotify.com/embed/track/7pKfPomDEeI4TPT6EOYjn9"  frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    <iframe class= "Img Img4"  src="https://open.spotify.com/embed/track/08mG3Y1vljYA6bvDt4Wqkj" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+      </div>
+ 
+    </div>
+
+ Celular 
+
+<div id="Celular">
+
+  <div >
+  <img id="Phone" src="./Imagenes/phone.png" alt="">
+ </div>
+
+  <div class="historia"> 
+   <h1>De dónde venimos</h1>
+ 
+   <p>Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light.</p>
+   <p>Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.</p>
+
+  </div>
+</div>
+
+Invitadas
+
+ <div id="Invitadas">
+  <h1>Invitadas/os estelares</h1>
+ 
+  <div id="ImgInv">
+  <img class="Inv" src="./Imagenes/grace-hopper.png" alt="">
+  <img class="Inv" src="./Imagenes/Katie-Bouman.png" alt="">
+  <img class="Inv" src="./Imagenes/Margaret_Hamilton.png" alt="">
+  <img class="Inv" src="./Imagenes/An E.R.A.Univac 1103 computer in the 1950s.png" alt="">
+  <img class="Inv" src="./Imagenes/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png" alt="">
+  <img class="Inv" src="./Imagenes/susan-kare.png" alt="">
+  </div>
+
+ </div>
+
+ Otros Temas
+
+<div id="Temas">
+
+<h1>Algunos de nuestros temas</h1>
+
+ <div id="Iconos">
+ <img src="./Imagenes/icon1.svg" alt="">
+ <img src="./Imagenes/icon2.svg" alt="">
+ <img src="./Imagenes/icon3.svg" alt="">
+ <img src="./Imagenes/icon4.svg" alt="">
+ </div>
+ 
+</div>
+
+Novedades 
+
+<div id="Novedad">
+<h1>¿Querés las últimas novedades?</h1>
+<button><a href="#Episodios">Escuchá los episodios</a></button>
+</div>
+
+ Footer 
+<div id="Footer">
+
+<h2>© 2019— Hello blue pale dot </h2>
+
+ #region <div id="IconosF"> Comentario
+
+<ul id="IconosF">
+  <li><a href="https://www.spotify.com/co/"><img class="ImagenFooter" src="./Imagenes/spotify.svg" alt=""></a></li>
+  <li><a href="https://www.instagram.com/"><img class="ImagenFooter" src="./Imagenes/instagram.svg" alt=""></a></li>
+  <li><a href="https://twitter.com/"><img class="ImagenFooter" src="./Imagenes/twitter.svg" alt=""></a></li>
+  <li><a href="https://www.facebook.com/"><img class="ImagenFooter" src="./Imagenes/facebook.svg" alt=""></a></li>
+  <li><a href="https://web.telegram.org/k/"><img class="ImagenFooter" src="./Imagenes/telegrama.svg" alt=""></a></li>
+</ul>
+
+</div> -->
+
+</body>
+
+</html>

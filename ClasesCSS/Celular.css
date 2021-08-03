@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap");
+body{
+  width: 1440px;
+}
+#Celular {
+ display: flex;
+ align-items: start;
+/* flex-wrap: wrap;*/
+justify-content: space-around;
+ height: 660px;
+
+}
+#Celular #Phone {
+  position: relative;
+  width: 457.6px;
+  height: 62.4 px;
+  top: -168.6px;
+  left: 200px;
+}
+#Celular .historia{
+
+  width: 465px;
+}
+
+#Celular h1 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 48px;
+  color: #060a24;
+  letter-spacing: 0;
+  line-height: 28px;
+
+  width: 399px;
+  height: 62px;
+}
+#Celular > p {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 16px;
+  color: #060a24;
+  letter-spacing: 0;
+  line-height: 24px;
+
+  width: 464px;
+  height: 204px;
+}

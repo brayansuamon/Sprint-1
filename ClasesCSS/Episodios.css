@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap");
+
+#Episodios {
+  height: 1042.65px;
+  margin: 0px;
+  background-image: linear-gradient(225deg, #0000ff 0%, #0000a3 100%);
+  clip-path: polygon(0% 10%, 100% 0%, 100% 90%, 0% 100%);
+  display: inline-block;
+  /*position: relative;*/
+}
+#Episodios h1 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 48px;
+  color: #ffffff;
+  letter-spacing: 0;
+  margin: 186px 1031px 26px 200px;
+}
+
+#Episodios > .Imagenes {
+  display: flex;
+  /* margin: 26px 100px 232.6px 100px;*/
+  margin-left: 100px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /*justify-content: center;
+  align-items: center;*/
+}
+#Episodios .Imagenes .Img {
+  width: 584px;
+  height: 232px;
+  margin-bottom: 72px;
+  margin-right: 72px;
+}
