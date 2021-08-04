@@ -22,3 +22,27 @@
   height: 364px;
   margin: 0px;
 }
+
+@media screen and (max-width: 420px) {
+  #Invitadas{
+    position: relative;
+  }
+  #Invitadas h1 {
+    
+    font-size: 36px;
+    
+    width: 368px;
+    height: 84px;
+    margin-left: 16px;
+    margin-bottom: 14px;
+    line-height: 42px;
+  }
+
+  #Invitadas #ImgInv img {
+    width: 100%;
+    height: 243px;
+    margin: 0px;
+  }
+
+
+}

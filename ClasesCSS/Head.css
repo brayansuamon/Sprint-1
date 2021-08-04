@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
 }
-body > #MenuHead,
+#MenuHead,
 #IntroHead {
   padding: 0px 100px;
   width: 100%;
@@ -89,7 +89,7 @@ body > #MenuHead,
 
 #MenuHeadM label.Logo{
   margin-top: 10px;
-  margin-left: 286px;
+  margin-left: 315px;
 }
 #MenuHeadM img{
   margin-left: 16px;
@@ -185,18 +185,21 @@ body > #MenuHead,
   #IntroHead {
     margin: 0;
     padding: 0;
+    width: 400px;
     background-color: aquamarine;
   }
   #IntroHead h1 {
     font-size: 36px;
     line-height: 42px;
+    width: 215px;
+    margin-left: 16px;
   }
   #IntroHead p {
 
     font-size: 14px;
     line-height: 22px;
     width: 368px;
-    margin-bottom: 36px;
+    margin: 16px 16px 36px 16px;
   }
   #IntroHead button {
     font-size: 16px;
@@ -204,7 +207,7 @@ body > #MenuHead,
   
     width: 368px;
     height: 48px;
-  
+    margin-left: 16px;  
   }
 
   }

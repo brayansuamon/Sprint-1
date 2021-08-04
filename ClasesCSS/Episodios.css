@@ -31,3 +31,40 @@
   margin-bottom: 72px;
   margin-right: 72px;
 }
+
+@media screen and (max-width: 420px){
+  
+  #Episodios {
+    height: 1203.5px;
+    width: 400px;
+    margin-top: 24px;  
+    clip-path: polygon(0% 2%, 100% 0%, 100% 98%, 0% 100%);
+   
+  }
+
+  #Episodios h1 {
+   
+    font-size: 36px;
+    line-height: 42px;
+    margin: 0;
+    margin-top: 90px;
+    margin-left: 16px;
+    margin-bottom: 21px;
+  }
+
+  #Episodios > .Imagenes {
+    width: 380px;
+    margin-left: 11px;
+  }
+
+  #Episodios .Imagenes .Img {
+
+    width: 380px;
+    height: 225px;
+    margin-bottom: 11px; 
+    margin-right: 0;
+  }
+  
+
+
+}

@@ -1,12 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap");
-body{
+/*body{
   width: 1440px;
-}
+}*/
 #Celular {
+  width: 1440px;
  display: flex;
  align-items: start;
-/* flex-wrap: wrap;*/
+ flex-wrap: wrap;/*Revisar*/
 justify-content: space-around;
  height: 660px;
 
@@ -42,4 +43,37 @@ justify-content: space-around;
 
   width: 464px;
   height: 204px;
+}
+
+@media screen and (max-width: 420px) {
+  
+  #Celular {
+    width: 400px;
+  }
+  #Celular #Phone {
+    position: relative;
+    width: 440px;
+    height: 519 px;
+    top: -78px;
+    left: 0;
+  }
+  #Celular .historia{
+    width: 368px;
+  }
+  #Celular h1 {
+
+    font-size: 36px;
+    line-height: 42px;
+    height: 84px;
+  }
+
+  #Celular > p {
+  
+    font-size: 14px;
+    line-height: 22px;
+  
+    height: 254px;
+  }
+
+  
 }
