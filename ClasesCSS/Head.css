@@ -44,20 +44,25 @@
 
 /* ------------- Para Mobil -----------*/
 .MenuHeadML {
-  background-color: #0000ec;
-}
-.MenuHeadML > div {
+  position: absolute;
+  background-color: #4747a7;
+  width: 0;
+  right: 0;
+  height: 150px;
   display: flex;
-  height: 28px;
-  align-items: center;
-  padding-left: 16px;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style: none;
+}
+.MenuHeadML li {
+  padding-left: 0px; /* 16*/
   opacity: 100%;
 }
-.MenuHeadML > div > a {
+.MenuHeadML li a {
   text-decoration: none;
   color: #ffffff;
   font-family: "IBM Plex Mono", monospace;
-  font-size: 16px;
+  font-size: 0;
   letter-spacing: 0;
   line-height: 28px;
   text-transform: uppercase;
@@ -107,7 +112,7 @@
 }
 #IntroHead {
   margin: 130px 0 0 0;
-  padding-left: 200px;
+  padding: 0 200px;
 }
 
 #IntroHead h1 {
@@ -155,9 +160,14 @@
   }
 
   #Hamburguesa:checked + .MenuHeadML {
-    transform: translatex(0%);
+    width: 100%;
+    right: 100%;
   }
-  /*
+  #Hamburguesa:checked + .MenuHeadML li a {
+    font-size: 16px;
+    padding-left: 16px;
+  }
+  /* 
   #MenuHeadM input:checked + span:nth-child(1){
     transform: translateY(7px) rotate(45deg);
   } 
@@ -170,26 +180,24 @@
 */
   #IntroHead {
     width: 100%;
-    background-color: aquamarine;
-    padding-left: 16px;
+    margin: 0;
+    padding: 0 16px;
   }
   #IntroHead h1 {
     font-size: 36px;
     line-height: 42px;
     width: 215px;
-    margin-left: 16px;
+    margin: 20px 0;
   }
   #IntroHead p {
     font-size: 14px;
     line-height: 22px;
     width: 368px;
-    margin: 16px 16px 36px 16px;
   }
   #IntroHead button {
     font-size: 16px;
     line-height: 22px;
     width: 100%;
     height: 48px;
-    margin-left: 16px;
   }
 }
