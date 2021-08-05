@@ -5,7 +5,6 @@
   font-size: 48px;
   color: #060a24;
   letter-spacing: 0;
-  
   width: 481px;
   height: 62px;
   margin-left: 200px;
@@ -16,21 +15,21 @@
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
+  width: 100%;
 }
 #Invitadas #ImgInv img {
+<<<<<<< HEAD
+=======
   width: 33.33%;
+>>>>>>> a61fd35a2e1fc4b3056302a67f97c0fef495f53f
   height: 364px;
   margin: 0px;
 }
 
 @media screen and (max-width: 420px) {
-  #Invitadas{
-    position: relative;
-  }
   #Invitadas h1 {
-    
     font-size: 36px;
-    
+
     width: 368px;
     margin-left: 16px;
     margin-bottom: 14px;
@@ -43,6 +42,4 @@
     margin: 0px;
     object-fit: cover; /* Le da calidad a la imagen*/
   }
-
-
 }

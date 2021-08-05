@@ -1,72 +1,65 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap");
-#Novedad{
-    margin-top: 34px;
-    height: 518px;
-    width: 1440px;
-    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
-    clip-path: polygon(0% 20%,100% 0%,100% 100%,0% 100%);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-
+#Novedad {
+  margin-top: 34px;
+  height: 518px;
+  width: 100%;
+  background-image: linear-gradient(225deg, #0000ff 0%, #0000a3 100%);
+  clip-path: polygon(0% 20%, 100% 0%, 100% 100%, 0% 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
-#Novedad h1{
-    font-family: "IBM Plex Sans", sans-serif;
-    font-size: 48px;
-    color: #FFFFFF;
-    letter-spacing: 0;
-    text-align: center;
-  
-    /*position: relative;
+#Novedad h1 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 48px;
+  color: #ffffff;
+  letter-spacing: 0;
+  text-align: center;
+
+  /*position: relative;
     top: 213px;*/
+}
+#Novedad button {
+  /*position: relative;*/
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 18px;
+  color: #060a24;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 700;
 
+  background: #00f3bb;
+  width: 345px;
+  height: 56px;
+  border: 0;
 }
-#Novedad button{ 
-   /*position: relative;*/
-    font-family: "IBM Plex Mono", monospace;
-    font-size: 18px;
-    color: #060A24;
-    letter-spacing: 0;
-    text-align: center;
-    line-height: 24px;
-    text-transform: uppercase;
-    font-weight: 700;
-
-    background: #00F3BB;
-    width: 345px;
-    height: 56px;
-    border: 0;
+#Novedad button:hover {
+  background-image: linear-gradient(225deg, #0000fe 0%, #00f0b8 100%);
 }
-#Novedad button:hover{
-    background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
-   
-}
-#Novedad button a{
-    text-decoration: none;
+#Novedad button a {
+  text-decoration: none;
 }
 
 @media screen and (max-width: 420px) {
+  #Novedad {
+    margin-top: 30px;
+    height: 341px;
+    width: 100%;
+    clip-path: polygon(0% 7%, 100% 0%, 100% 100%, 0% 100%);
+  }
+  #Novedad h1 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+  #Novedad button {
+    font-size: 16px;
+    line-height: 22px;
 
-    #Novedad{
-        margin-top: 30px;
-        height: 341px;
-        width: 100%;
-        clip-path: polygon(0% 7%,100% 0%,100% 100%,0% 100%);
-    }
-    #Novedad h1{
-       
-        font-size: 36px;
-        line-height: 42px;
-    }
-    #Novedad button{ 
-         
-         font-size: 16px;
-         line-height: 22px;
-    
-         width: 90%;
-         height: 48px;
-     }
-    
+    width: 90%;
+    height: 48px;
+  }
 }
