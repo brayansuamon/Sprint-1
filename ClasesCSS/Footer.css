@@ -33,3 +33,15 @@ line-height: 28px;
     width: 18px;
     height: 28px;
 }
+
+@media screen and (max-width:420px) {
+    #Footer h2{
+
+        margin-bottom: 16px;
+        
+        }
+    #IconosF{
+        margin-left: -10%;
+    }
+       
+}
