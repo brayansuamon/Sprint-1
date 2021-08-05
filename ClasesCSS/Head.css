@@ -169,8 +169,6 @@
   } 
 */
   #IntroHead {
-    margin: 0;
-    padding: 0;
     width: 400px;
     background-color: aquamarine;
   }
@@ -189,7 +187,6 @@
   #IntroHead button {
     font-size: 16px;
     line-height: 22px;
-
     width: 368px;
     height: 48px;
     margin-left: 16px;

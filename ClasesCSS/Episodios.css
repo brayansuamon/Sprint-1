@@ -2,48 +2,47 @@
 
 #Episodios {
   height: 1042.65px;
-  margin: 0px;
   background-image: linear-gradient(225deg, #0000ff 0%, #0000a3 100%);
   clip-path: polygon(0% 10%, 100% 0%, 100% 90%, 0% 100%);
-  display: inline-block;
-  /*position: relative;*/
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  flex-direction: column;
 }
 #Episodios h1 {
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 48px;
   color: #ffffff;
   letter-spacing: 0;
-  margin: 186px 1031px 26px 200px;
+  margin: 150px 0 50px 200px;
 }
 
-#Episodios > .Imagenes {
+#Episodios .Imagenes {
   display: flex;
-  /* margin: 26px 100px 232.6px 100px;*/
-  margin-left: 100px;
-  flex-direction: row;
   flex-wrap: wrap;
-  /*justify-content: center;
-  align-items: center;*/
+  background-color: red;
+  width: 100%;
+  padding: 0 100px;
+  justify-content: space-between;
+  align-items: center;
+  height: 60%;
 }
 #Episodios .Imagenes .Img {
-  width: 584px;
+  width: 40%;
   height: 232px;
-  margin-bottom: 72px;
-  margin-right: 72px;
+  /* margin-bottom: 72px;
+  margin-right: 72px; */
 }
 
-@media screen and (max-width: 420px){
-  
+@media screen and (max-width: 420px) {
   #Episodios {
     height: 1203.5px;
     width: 400px;
-    margin-top: 24px;  
+    margin-top: 24px;
     clip-path: polygon(0% 2%, 100% 0%, 100% 98%, 0% 100%);
-   
   }
 
   #Episodios h1 {
-   
     font-size: 36px;
     line-height: 42px;
     margin: 0;
@@ -58,13 +57,9 @@
   }
 
   #Episodios .Imagenes .Img {
-
     width: 380px;
     height: 225px;
-    margin-bottom: 11px; 
+    margin-bottom: 11px;
     margin-right: 0;
   }
-  
-
-
 }
