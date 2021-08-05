@@ -18,6 +18,10 @@
   width: 100%;
 }
 #Invitadas #ImgInv img {
+<<<<<<< HEAD
+=======
+  width: 33.33%;
+>>>>>>> a61fd35a2e1fc4b3056302a67f97c0fef495f53f
   height: 364px;
   margin: 0px;
 }
