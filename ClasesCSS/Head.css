@@ -48,6 +48,7 @@
   background-color: #0000ec;
   width: 0;
   right: 0;
+  top: 44px;
   height: 150px;
   display: flex;
   flex-direction: column;
@@ -69,28 +70,16 @@
   text-transform: uppercase;
 }
 
-#MenuHeadM > .Logo {
-  display: inline-block;
-  align-items: center;
-}
-#MenuHeadM label span {
-  border-radius: 5px;
-  background: black;
-  display: block;
-  width: 20px;
-  height: 2px;
-  margin: 5px auto;
-  transition: all 0.6s ease;
-}
-
-#MenuHeadM label.Logo {
-  margin-top: 10px;
-  margin-left: 315px;
-}
-#MenuHeadM img {
+#MenuHeadM label img {
   margin-left: 16px;
+  width: 20px;
 }
-
+#MenuHeadM label .Open {
+  display: block;
+}
+#MenuHeadM label .Close {
+  display: none;
+}
 .MenuHeadML {
   transform: translateX(100%);
   transition: all 1.5s ease;
@@ -154,31 +143,31 @@
 
 @media screen and (max-width: 420px) {
   #MenuHeadM {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+    height: 50px;
   }
   #MenuHead {
     display: none;
   }
 
-  #Hamburguesa:checked + .MenuHeadML {
+  #Hamburguesa:checked ~ .MenuHeadML {
     width: 100%;
     right: 100%;
   }
-  #Hamburguesa:checked + .MenuHeadML li a {
+  #Hamburguesa:checked ~ .MenuHeadML li a {
     font-size: 16px;
     padding-left: 16px;
   }
-  /* 
-  #MenuHeadM input:checked + span:nth-child(1){
-    transform: translateY(7px) rotate(45deg);
-  } 
-  #MenuHeadM input:checked + span:nth-child(2){
-   opacity: 0%;
-  } 
-  #MenuHeadM input:checked + span:nth-child(3){
-    transform: translateY(-7px) rotate(-45deg);
-  } 
-*/
+  #Hamburguesa:checked ~ label .Open {
+    display: none;
+  }
+  #Hamburguesa:checked ~ label .Close {
+    display: block;
+  }
+
   #IntroHead {
     width: 100%;
     margin: 0;
