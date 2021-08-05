@@ -38,3 +38,31 @@
   width: 464px;
   height: 204px;
 }
+
+@media screen and (max-width: 420px) {
+  #Celular {
+    width: 400px;
+  }
+  #Celular #Phone {
+    position: relative;
+    width: 440px;
+    height: 519 px;
+    top: -78px;
+    left: 0;
+  }
+  #Celular .historia {
+    width: 368px;
+  }
+  #Celular h1 {
+    font-size: 36px;
+    line-height: 42px;
+    height: 84px;
+  }
+
+  #Celular > p {
+    font-size: 14px;
+    line-height: 22px;
+
+    height: 254px;
+  }
+}
