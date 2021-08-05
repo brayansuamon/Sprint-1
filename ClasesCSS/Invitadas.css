@@ -32,7 +32,6 @@
     font-size: 36px;
     
     width: 368px;
-    height: 84px;
     margin-left: 16px;
     margin-bottom: 14px;
     line-height: 42px;
@@ -42,6 +41,7 @@
     width: 100%;
     height: 243px;
     margin: 0px;
+    object-fit: cover; /* Le da calidad a la imagen*/
   }
 
 

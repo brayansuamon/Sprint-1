@@ -54,6 +54,7 @@
   #Episodios > .Imagenes {
     width: 380px;
     margin-left: 11px;
+    padding: 0;
   }
 
   #Episodios .Imagenes .Img {
