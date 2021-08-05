@@ -6,13 +6,11 @@
   align-items: center;
   justify-content: flex-end;
   height: 660px;
-  background-color: red;
   position: relative;
   width: 100%;
   padding: 0 100px;
 }
 #Celular #Phone {
-  background-color: blue;
   position: absolute;
   width: 450px;
   height: 62.4 px;
@@ -21,7 +19,7 @@
 }
 #Celular .historia {
   width: 465px;
-  background-color: yellow;
+  height: 50%;
 }
 
 #Celular h1 {
@@ -30,34 +28,34 @@
   color: #060a24;
   letter-spacing: 0;
   line-height: 28px;
-
   width: 399px;
   height: 62px;
 }
-#Celular > p {
+#Celular .historia p {
   font-family: "IBM Plex Mono", monospace;
   font-size: 16px;
   color: #060a24;
   letter-spacing: 0;
   line-height: 24px;
-
-  width: 464px;
-  height: 204px;
+  margin-bottom: 10px;
 }
 
 @media screen and (max-width: 420px) {
   #Celular {
     width: 400px;
+    height: 1000px;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 40px;
   }
   #Celular #Phone {
-    position: relative;
-    width: 440px;
-    height: 519 px;
-    top: -78px;
+    width: 100%;
+    top: 0;
     left: 0;
   }
   #Celular .historia {
     width: 368px;
+    height: auto;
   }
   #Celular h1 {
     font-size: 36px;
@@ -68,7 +66,6 @@
   #Celular > p {
     font-size: 14px;
     line-height: 22px;
-
     height: 254px;
   }
 }
