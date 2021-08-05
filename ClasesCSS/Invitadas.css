@@ -18,10 +18,7 @@
   width: 100%;
 }
 #Invitadas #ImgInv img {
-<<<<<<< HEAD
-=======
   width: 33.33%;
->>>>>>> a61fd35a2e1fc4b3056302a67f97c0fef495f53f
   height: 364px;
   margin: 0px;
 }
@@ -29,10 +26,9 @@
 @media screen and (max-width: 420px) {
   #Invitadas h1 {
     font-size: 36px;
-
-    width: 368px;
+    width: 90%;
     margin-left: 16px;
-    margin-bottom: 14px;
+    margin-bottom: 40px;
     line-height: 42px;
   }
 

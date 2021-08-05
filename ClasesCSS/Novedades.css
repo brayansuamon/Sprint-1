@@ -17,12 +17,8 @@
   color: #ffffff;
   letter-spacing: 0;
   text-align: center;
-
-  /*position: relative;
-    top: 213px;*/
 }
 #Novedad button {
-  /*position: relative;*/
   font-family: "IBM Plex Mono", monospace;
   font-size: 18px;
   color: #060a24;
@@ -31,7 +27,6 @@
   line-height: 24px;
   text-transform: uppercase;
   font-weight: 700;
-
   background: #00f3bb;
   width: 345px;
   height: 56px;
@@ -58,7 +53,6 @@
   #Novedad button {
     font-size: 16px;
     line-height: 22px;
-
     width: 90%;
     height: 48px;
   }

@@ -45,7 +45,7 @@
 /* ------------- Para Mobil -----------*/
 .MenuHeadML {
   position: absolute;
-  background-color: #4747a7;
+  background-color: #0000ec;
   width: 0;
   right: 0;
   height: 150px;
@@ -55,12 +55,13 @@
   list-style: none;
 }
 .MenuHeadML li {
-  padding-left: 0px; /* 16*/
+  padding-left: 0px;
   opacity: 100%;
 }
 .MenuHeadML li a {
   text-decoration: none;
   color: #ffffff;
+  font-weight: bold;
   font-family: "IBM Plex Mono", monospace;
   font-size: 0;
   letter-spacing: 0;

@@ -28,7 +28,6 @@
   color: #060a24;
   letter-spacing: 0;
   line-height: 28px;
-  width: 399px;
   height: 62px;
 }
 #Celular .historia p {
@@ -42,30 +41,30 @@
 
 @media screen and (max-width: 420px) {
   #Celular {
-    width: 400px;
+    width: 100%;
     height: 1000px;
     align-items: flex-end;
     justify-content: center;
     margin-bottom: 40px;
+    padding: 16px;
   }
   #Celular #Phone {
     width: 100%;
-    top: 0;
+    top: -50px;
     left: 0;
   }
   #Celular .historia {
-    width: 368px;
+    width: 400px;
     height: auto;
   }
-  #Celular h1 {
+  #Celular .historia h1 {
     font-size: 36px;
     line-height: 42px;
-    height: 84px;
   }
 
   #Celular > p {
     font-size: 14px;
     line-height: 22px;
-    height: 254px;
+    width: 100%;
   }
 }

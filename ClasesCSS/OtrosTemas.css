@@ -5,7 +5,6 @@
   font-size: 48px;
   color: #060a24;
   letter-spacing: 0;
-
   margin: 64px 654px 56px 100px;
   width: 586px;
   height: 62px;
@@ -16,48 +15,42 @@
   flex-wrap: wrap;
 }
 
-#Temas #Iconos figure{
+#Temas #Iconos figure {
   display: flex;
   flex-flow: column;
   flex-wrap: wrap;
   width: 20%;
 }
-#Temas #Iconos figure img{
+#Temas #Iconos figure img {
   margin-bottom: 13px;
 }
-#Temas #Iconos figcaption{
-font-family: "IBM Plex Sans", sans-serif;
-font-size: 24px;
-color: #060A24;
-letter-spacing: 0;
-text-align: center;
-font-weight: 700;
+#Temas #Iconos figcaption {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 24px;
+  color: #060a24;
+  letter-spacing: 0;
+  text-align: center;
+  font-weight: 700;
 }
 
-
 @media screen and (max-width: 420px) {
-  
   #Temas h1 {
     font-size: 36px;
     line-height: 42px;
-    margin: 48px 16px 30px 16px;
-    width: 100%;
+    margin: 48px 0 60px 16px;
+    width: 80%;
   }
   #Temas #Iconos {
     flex-direction: column;
     align-items: center;
-    
   }
-  #Temas #Iconos figure{
+  #Temas #Iconos figure {
     align-items: center;
     width: 100%;
     margin-bottom: 40px;
   }
-  
+
   #Temas #Iconos figure > figcaption {
     width: 70%;
   }
-  
-
-
 }
