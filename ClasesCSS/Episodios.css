@@ -26,10 +26,12 @@
   justify-content: space-between;
   align-items: center;
   height: 60%;
+  
 }
 #Episodios .Imagenes .Img {
   width: 40%;
   height: 232px;
+  border-radius: 15px;
   /* margin-bottom: 72px;
   margin-right: 72px; */
 }
