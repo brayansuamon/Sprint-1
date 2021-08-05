@@ -3,19 +3,25 @@
 
 #Celular {
   display: flex;
-  align-items: start;
-  justify-content: space-around;
+  align-items: center;
+  justify-content: flex-end;
   height: 660px;
+  background-color: red;
+  position: relative;
+  width: 100%;
+  padding: 0 100px;
 }
 #Celular #Phone {
-  position: relative;
-  width: 457.6px;
+  background-color: blue;
+  position: absolute;
+  width: 450px;
   height: 62.4 px;
-  top: -168.6px;
-  left: 200px;
+  top: -90px;
+  left: 100px;
 }
 #Celular .historia {
   width: 465px;
+  background-color: yellow;
 }
 
 #Celular h1 {
