@@ -43,3 +43,16 @@
 #Novedad button a{
     text-decoration: none;
 }
+
+@media screen and (max-width: 420px) {
+
+    #Novedad{
+        margin-top: 30px;
+        height: 341px;
+        width: 100%;
+        clip-path: polygon(0% 7%,100% 0%,100% 100%,0% 100%);
+    }
+
+
+    
+}
