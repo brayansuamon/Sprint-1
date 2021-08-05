@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
 }
-body > #MenuHead,
+#MenuHead,
 #IntroHead {
   padding: 0px 100px;
   width: 100%;
@@ -19,7 +19,7 @@ body > #MenuHead,
   color: #ffffff;
   opacity: 100%;
 }
-#MenuHead ul > li  {
+#MenuHead ul > li {
   display: inline;
   margin-left: 48px;
   font-family: "IBM Plex Mono", monospace;
@@ -30,21 +30,21 @@ body > #MenuHead,
   text-transform: uppercase; /*Me pone todo en mayusculas*/
 }
 
-#MenuHead ul :hover{
-  color: #00F3BB;
+#MenuHead ul :hover {
+  color: #00f3bb;
   text-decoration: line-through;
 }
-#MenuHead ul :active{
-  color: #8F060A24;
+#MenuHead ul :active {
+  color: #8f060a24;
   text-decoration: line-through;
 }
-#MenuHead ul li a{
+#MenuHead ul li a {
   text-decoration: none;
 }
 
 /* ------------- Para Mobil -----------*/
-.MenuHeadML{
-  background-color: #0000EC;
+.MenuHeadML {
+  background-color: #0000ec;
 }
 .MenuHeadML > div {
   display: flex;
@@ -53,31 +53,21 @@ body > #MenuHead,
   padding-left: 16px;
   opacity: 100%;
 }
-.MenuHeadML > div > a{
+.MenuHeadML > div > a {
   text-decoration: none;
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: "IBM Plex Mono", monospace;
   font-size: 16px;
   letter-spacing: 0;
   line-height: 28px;
   text-transform: uppercase;
 }
-/*
-.MenuHeadML div a:hover{
-  color: #00F3BB;
-  text-decoration: line-through;
-}
-.MenuHeadML div a:active{
-  color: #8F060A24;
-  text-decoration: line-through;
-}
-*/
 
-#MenuHeadM > .Logo{
+#MenuHeadM > .Logo {
   display: inline-block;
   align-items: center;
 }
-#MenuHeadM label  span{
+#MenuHeadM label span {
   border-radius: 5px;
   background: black;
   display: block;
@@ -87,30 +77,27 @@ body > #MenuHead,
   transition: all 0.6s ease;
 }
 
-#MenuHeadM label.Logo{
+#MenuHeadM label.Logo {
   margin-top: 10px;
   margin-left: 286px;
 }
-#MenuHeadM img{
+#MenuHeadM img {
   margin-left: 16px;
 }
 
-.MenuHeadML{
+.MenuHeadML {
   transform: translateX(100%);
   transition: all 1.5s ease;
 }
 
-#Hamburguesa{
+#Hamburguesa {
   display: none;
 }
 
-#MenuHeadM{
+#MenuHeadM {
   display: none;
   overflow: hidden;
 }
-
-
-/* ----------------------------------------------*/
 
 .World {
   text-decoration: line-through;
@@ -119,7 +106,8 @@ body > #MenuHead,
   color: #0000ec;
 }
 #IntroHead {
-  margin: 120px 0px 0px 100px;
+  margin: 130px 0 0 0;
+  padding-left: 200px;
 }
 
 #IntroHead h1 {
@@ -135,8 +123,8 @@ body > #MenuHead,
   font-size: 16px;
   color: #060a24;
   letter-spacing: 0;
+  width: 60%;
   line-height: 24px;
-  width: 628px;
   margin-bottom: 56px;
 }
 #IntroHead button {
@@ -146,29 +134,28 @@ body > #MenuHead,
   letter-spacing: 0;
   text-align: center;
   line-height: 24px;
-
   width: 226px;
+  border: none;
   height: 56px;
   background-color: #00f3bb;
 
   text-transform: uppercase; /*Pone el texto en mayuscula*/
   font-weight: 700; /*Pone el texto en negrilla*/
 }
-#IntroHead button:hover{
-  background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+#IntroHead button:hover {
+  background-image: linear-gradient(225deg, #0000fe 0%, #00f0b8 100%);
 }
 
 @media screen and (max-width: 420px) {
-
-  #MenuHeadM{
+  #MenuHeadM {
     display: block;
-    }
-  #MenuHead{
-      display: none;
-    }
-  
+  }
+  #MenuHead {
+    display: none;
+  }
+
   #Hamburguesa:checked + .MenuHeadML {
-      transform: translatex(0%);
+    transform: translatex(0%);
   }
   /*
   #MenuHeadM input:checked + span:nth-child(1){
@@ -181,7 +168,6 @@ body > #MenuHead,
     transform: translateY(-7px) rotate(-45deg);
   } 
 */
-  /* ------------------------------------ */
   #IntroHead {
     margin: 0;
     padding: 0;
@@ -192,7 +178,6 @@ body > #MenuHead,
     line-height: 42px;
   }
   #IntroHead p {
-
     font-size: 14px;
     line-height: 22px;
     width: 368px;
@@ -201,11 +186,8 @@ body > #MenuHead,
   #IntroHead button {
     font-size: 16px;
     line-height: 22px;
-  
+
     width: 368px;
     height: 48px;
-  
   }
-
-  }
-  
+}
